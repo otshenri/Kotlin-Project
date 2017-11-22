@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/LayoutLarge">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/title_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TitleLarge"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_thin"
+        style="@style/Line" />
+
+    <TextView
+        android:id="@+id/pub_date_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PublishDateLarge"/>
 
 </LinearLayout>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Coding Challenge</string>
+
+    <!-- ALERTS -->
+    <string name="title_alert_unable_to_connect">Connection Error</string>
+    <string name="message_alert_unable_to_connect">Unable to connect to the server.</string>
+
+    <!-- BUTTONS -->
+    <string name="btn_retry">Retry</string>
+
 </resources>
